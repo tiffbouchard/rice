@@ -1,0 +1,12 @@
+:root {
+    --main-colour: #F4F4F4;
+    --hover-color: #EAEAEA;
+    --disabled-text-color: #BFBFBF;
+    --disabled-color: #FAFAFA;
+    --link-color: #195FFF;
+    --link-decoration-offset: 3px;
+    --text-color: #606060;
+
+    --default-shadow: 0 2px 6px #00000007;
+    --secondary-shadow: 0 2px 6px #00000007;
+}

@@ -1,0 +1,29 @@
+* {
+    font-family: var(--font-family);
+    box-sizing: border-box;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn {
+    border: none;
+    padding: 10px 15px;
+    background-color: #eeeeee;
+    border: solid 2px transparent;
+    color: #424242;
+}
+
+.round {
+    border-radius: 10px;
+}
+
+.rounder {
+    border-radius: 30px;
+}
+
+.outline {
+    background-color: transparent;
+    border: solid 2px #eeeeee;
+}

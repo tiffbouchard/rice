@@ -1,0 +1,51 @@
+@import url(./_variables.css);
+
+.btn {
+  border: none;
+  color: var(--text-color);
+}
+
+.btn:disabled {
+  background-color: var(--disabled-color);
+  color: var(--disabled-text-color);
+}
+
+.btn:disabled:hover {
+  background-color: var(--disabled-color);
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: var(--hover-color);
+}
+
+.btn-primary {
+  background-color: var(--main-colour);
+}
+
+.btn--small {
+  padding: 10px 20px;
+  font-size: 12px;
+}
+
+.btn--medium {
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+.btn--large {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.btn--round {
+  border-radius: 3px;
+}
+
+.btn--rounder {
+  border-radius: 8px;
+}
+
+.btn--roundest {
+  border-radius: 100px;
+}
