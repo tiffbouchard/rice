@@ -1,9 +1,14 @@
 :root {
-    --font-family: Arial, Helvetica, sans-serif;
+    --text-color: #606060;
 
+    --main-colour: #F4F4F4;
+    --hover-color: #EAEAEA;
+    --disabled-text-color: #BFBFBF;
+    --disabled-color: #FAFAFA;
+    
+    --default-shadow: 0 2px 6px #00000015;
+    --secondary-shadow: 0 4px 6px #00000015;
 
-
-
-
+    --link-color: #195FFF;
+    --link-decoration-offset: 3px;
 }
-

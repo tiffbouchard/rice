@@ -4,34 +4,52 @@ import { Button } from './Button';
 
 export default {
   title: 'Button',
-  component: Button,
-  argTypes: {
-    backgroundColor: { control: 'color' },
-  },
+  component: Button
 };
 
 const Template = (args) => <Button {...args} />;
 
 export const Primary = Template.bind({});
 Primary.args = {
-  primary: true,
-  type: 'default',
   label: 'Button',
+  primary: true
 };
 
-// export const Secondary = Template.bind({});
-// Secondary.args = {
-//   label: 'Button',
-// };
+export const Secondary = Template.bind({});
+Secondary.args = {
+  label: 'Button',
+  primary: false
+};
 
-// export const Large = Template.bind({});
-// Large.args = {
-//   size: 'large',
-//   label: 'Button',
-// };
+export const Round = Template.bind({});
+Round.args = {
+  label: 'Button',
+  primary: true,
+  size: 'medium',
+  shape: 'roundest'
+};
 
-// export const Small = Template.bind({});
-// Small.args = {
-//   size: 'small',
-//   label: 'Button',
-// };
+export const Shadow = Template.bind({});
+Shadow.args = {
+  label: 'Button',
+  primary: true,
+  size: 'medium',
+  shape: 'default',
+  shadow: true
+};
+
+export const Small = Template.bind({});
+Small.args = {
+  label: 'Button',
+  primary: true,
+  size: 'small'
+};
+
+export const Large = Template.bind({});
+Large.args = {
+  label: 'Button',
+  primary: true,
+  size: 'large',
+};
+
+

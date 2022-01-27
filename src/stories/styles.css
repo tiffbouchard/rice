@@ -1,4 +1,4 @@
-@import url(./_variables.css);
+@import url(./variables.css);
 
 .shadow {
     box-shadow: var(--default-shadow);

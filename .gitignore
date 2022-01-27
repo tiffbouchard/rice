@@ -1,9 +1,11 @@
 .DS_*
 *.log
 logs
+**/*.backup.*
+**/*.back.*
+/build
+dist
 
 node_modules
 
 storybook-static/
-
-dist

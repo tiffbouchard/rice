@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import './button.css';
 import './styles.css';
 
-export const Button = ({ label, primary, shape, size, block, shadow, customStyle, ...props }) => {
+export default Button = ({ label, primary, shape, size, block, shadow, customStyle, ...props }) => {
   
   const type = primary ? 'btn--primary' : 'btn--secondary';
   const width = block && 'btn--block';
